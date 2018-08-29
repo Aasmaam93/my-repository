@@ -32,7 +32,8 @@ p{
 	border-bottom:2px solid black;
 	text-align:center;
 	font-weight:bold;
-	width: 75px;
+	font-size:125%;
+	width: 100px;
 	float:right;
 	clear: left;
 	position: relative;
