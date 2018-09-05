@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+#header-nav, body{
+font-family: 'Nunito', sans-serif;	
+}
+.navbar > .container{
+	margin-left:0;
+	margin-right:0;
+}
+} 
+.navbar-brand{
+		padding:10px;
+}
+.navbar-brand h1{
+	color:#000;
+	font-weight:bold;
+	font-size:1.7em;
+	margin-bottom:0;
+	margin-top:0;}
+	
+colapsable-menu{float:right;}
+container{width:100%;}
+#c, #b, #s{
+	background-color:#afafaf;
+	width:100%;
+	float:left;
+	padding:5px;
+	}
+	
+	
+	#main-title h2{
+	font-weight:bold;
+	font-size:1.7em;
+	margin-top:20px;
+	margin-bottom:40px;}
+	
+	h3{
+	font-weight:bold;
+	font-size:1.3em;
+	padding-top:10px;}
+	#scroll-menu{
+	margin:0 0 0 0;
+	background-color:#fff;
+	border-top:2px solid #000;
+	border-left:2px solid #000;
+	border-right:2px solid #000;}
+	#scroll-menu a{margin:0 0 0 0;}
+	
+	#scroll-menu a p{
+	
+	font-family: 'Nunito', sans-serif;	
+	font-size:1.2em;
+	font-weight:bold;
+	color:#000;
+	border-bottom:2px solid black;
+	margin:0 0 0 0;
+	}
+	#pc{margin-top:20px;}
+	 #scroll-menu a #pc{margin-top:20px;}
+	 a:hover a:active{text-decoration:none}
+	 @media (min-width: 992px) and (max-width: 1199px){
+	 #c, #b, #s{
+
+	 }
+	 }
