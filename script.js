@@ -179,9 +179,17 @@
 // console.log(window.myName);
 //****
 // function Circle (radius){
-// 	this.radius=radius;
+// 	console.log(this);
 
 // 	}
+//****
+// function Circle (radius){
+// 	this.radius=radius;
+//// this.getArea=
+//// function(){
+//// 	return Math.PI * Math.pow(this.radius,2);
+// //	}
+// }
 // 	Circle.prototype.getArea=
 // 	function(){
 // 		return Math.PI * Math.pow(this.radius,2);
@@ -191,19 +199,54 @@
 
 // var myOtherCircle= new Circle(20);
 // console.log(myOtherCircle);
-//**
-var literalCircle ={
-	radius:10,
+//49
+// var literalCircle ={
+// 	radius:10,
 
-	getArea: function(){
-		var self=this;
-console.log(this);
-var increaseRadius=function(){
-self.radius=20;
-};
-increaseRadius();
-console.log(this.radius);
-return Math.PI * Math.pow(this.radius,2);
-	}
-};
-console.log(literalCircle.getArea());
+// 	getArea: function(){
+
+// 		var self=this;
+// console.log(this);
+// var increaseRadius=function(){
+//  self.radius=20;
+
+//  };
+// increaseRadius();
+//  console.log(this.radius);
+// return Math.PI * Math.pow(this.radius,2);
+// 	}
+// };
+// console.log(literalCircle.getArea());
+//literalCircle.getArea();
+//array
+// var array= new Array();
+// array[0]="ema";
+// array[1]=2;
+// array[2]= function(name){
+// 	console.log("hello "+name);
+// };
+// array[3]={course:"html, css, js"};
+// console.log(array);
+// array[2](array[0]);
+// console.log(array[3].course);
+// var names2=["css", "html", "js"];
+//console.log(name);
+// for (var i = 0; i < names.length; i++) {
+// 	console.log("hello "+ names[i]);
+// }
+// names[100]="beh";
+// for (var i = 0; i < names.length; i++) {
+// 	console.log("hello "+ names[i]);
+// }
+// var names=["css", "html", "js"];
+// var myObj={
+// 	name:"ema",
+// 	course:"css/html/js",
+// 	platform:"coursera"
+// };
+// for (var prop in myObj){
+// 	console.log(prop+ ":" +myObj[prop]);
+// }
+// for (var name in names2){
+// 	console.log( "hello: " +names2[name]);
+// }

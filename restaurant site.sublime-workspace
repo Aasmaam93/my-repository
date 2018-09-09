@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"n",
+				"names"
+			],
+			[
+				"pr",
+				"prop"
+			],
+			[
+				"f",
+				"for\tfor (…) {…}"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"c",
+				"course"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"G",
+				"getArea"
+			],
+			[
+				"T",
+				"this"
+			],
+			[
 				"in",
 				"increaseRadius"
 			],
@@ -32,14 +64,6 @@
 				"var"
 			],
 			[
-				"c",
-				"console"
-			],
-			[
-				"pr",
-				"primValue"
-			],
-			[
 				"p",
 				"primValue"
 			],
@@ -58,10 +82,6 @@
 			[
 				"do",
 				"doOperationOn"
-			],
-			[
-				"f",
-				"function"
 			],
 			[
 				"m",
@@ -84,20 +104,12 @@
 				"ema"
 			],
 			[
-				"a",
-				"amy"
-			],
-			[
 				"s",
 				"stockCompany"
 			],
 			[
 				"o",
 				"of"
-			],
-			[
-				"n",
-				"name"
 			],
 			[
 				"fu",
@@ -160,7 +172,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 4415,
+				"buffer_size": 5424,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -422,15 +434,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4415,
+						"buffer_size": 5424,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4144,
-								4144
+								5063,
+								5063
 							]
 						],
 						"settings":
@@ -438,7 +450,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2795.0,
+						"translation.y": 5037.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
